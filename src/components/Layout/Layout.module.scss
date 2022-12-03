@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.layout {
+  height: 100%;
+
+	&__header {
+
+  border-bottom: 1px solid $fadedSlate;
+  padding: 26px ;
+	}
+
+  &__content {
+    height: 100%;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

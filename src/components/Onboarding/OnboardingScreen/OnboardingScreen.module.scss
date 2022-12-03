@@ -1,0 +1,80 @@
+@import '../../../styles/variables';
+
+.onBoardingScreen{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&__header {
+		&__imageContainer {
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+
+&__headerText {
+		padding-top: 10px;
+	color: $lightWhite;
+	font-family: 'Roboto', sans-serif;
+
+	&__title {
+		color: $lightWhite;
+	font-size: 1rem;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+
+	&__textBlock {
+display:inline;
+
+	&__description {
+		font-size: 0.8rem;
+	}
+
+	&__link {
+		color: rgba(151, 71, 255, 0.7) ;
+		text-decoration: none;
+	}
+}
+
+	&__secondParagraph {
+		font-size: 0.8rem;
+	}
+}
+
+
+&__footer {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	&__walkthroughBars {
+		width: 50%;
+	}
+
+
+&__footerButton {
+	
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	background-color: $brightGold;
+	width: 350px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+align-items: center;
+color: white;
+cursor: pointer;
+}
+}
+
+
+}
+
+
+

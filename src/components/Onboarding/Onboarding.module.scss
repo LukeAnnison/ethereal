@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.onBoarding{
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&__title {
+		font-weight: bold;
+		color: $lightWhite;
+	display: flex;
+	justify-content: center;
+	}
+}
